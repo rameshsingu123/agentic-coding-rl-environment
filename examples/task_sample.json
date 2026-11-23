@@ -1,0 +1,7 @@
+{
+  "task_id": "sample-001",
+  "description": "Run the project's test suite in a prepared Git worktree.",
+  "command": ["python", "-m", "pytest", "-q"],
+  "timeout_seconds": 120,
+  "max_diff_bytes": 1000000
+}
